@@ -1,0 +1,366 @@
+.banner{
+    width: 100%;
+    height: 601px;
+   
+}
+.ban{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+body{
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+.nav{
+    width: 100%;
+    height: 90px;
+    background: bisque;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.nav-logo{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.log{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.nav-contl{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.list-nav{
+    padding-inline-start: 20px;
+    margin-top: 35px;
+   
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 30px 44px 0px;
+    font-family: gotham-book;
+    font-size: 16px;
+    font-weight: 500;
+    color: #dc4348;
+    position: relative;
+}
+.li1::after{
+        content: '';
+        position: absolute;
+        width: 90%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color:#dc4348 ;
+        transform-origin: bottom middle;
+        transition: transform 0.25s ease-out;
+}
+.li1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .li2::after{
+    content: '';
+    position: absolute;
+    width: 90%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#dc4348 ;
+    transform-origin: bottom middle;
+    transition: transform 0.25s ease-out;
+}
+.li2:hover:after {
+transform: scaleX(1);
+transform-origin: bottom left;
+}
+.li3::after{
+    content: '';
+    position: absolute;
+    width: 90%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#dc4348 ;
+    transform-origin: bottom middle;
+    transition: transform 0.25s ease-out;
+}
+.li3:hover:after {
+transform: scaleX(1);
+transform-origin: bottom left;
+}
+.li4::after{
+    content: '';
+    position: absolute;
+    width: 90%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#dc4348 ;
+    transform-origin: bottom middle;
+    transition: transform 0.25s ease-out;
+}
+.li4:hover:after {
+transform: scaleX(1);
+transform-origin: bottom left;
+}
+.nav-contr{
+    width: 20%;
+    height: 100%;
+   
+    float: left;
+    display: flex;
+}
+.lir{
+    padding-left: 4px;
+    margin-top: 30px;
+    justify-content: flex-end;
+    align-items: end;
+}
+.rt-cont{
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.box
+{
+    width: 100%;
+    height: 498px;
+    display: flex;
+    justify-content: flex-start;
+}
+.box1{
+    width: 510px;
+    height: auto;
+    min-height: 500px;
+    float: left;
+    
+}
+.box2{
+    width: 510px;
+    height: auto;
+    float: left;
+}
+.box3{
+    width: 510px;
+    height: auto;
+    float: left;
+}
+
+.scimg{
+    width: 100%;
+    height: auto;
+}
+.bgimg-cont{
+    width: 100%;
+    height: 440px;
+    background-image: url(images/bgimg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bghv-text{
+    height: 500px;
+    width: 400px;
+}
+.bg-text{
+    width: 400px;
+    height: auto;
+    margin-top: 100px;
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    background: #fff;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.icon{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+   
+}
+.social1{
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-image: url(images/insta-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.social2{
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-image: url(images/fb-bg.png);
+    background-size: cover;
+}
+.social3{
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-image: url(images/youtube-bg.png);
+    background-size: cover;
+}
+.social4{
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-image: url(images/twitter-bg.png);
+    background-size: cover;
+}
+.social5{
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-image: url(images/twitter-bg.png);
+    background-size: cover;
+}
+
+#insta{
+    margin-top: 20px;
+}
+#fb{
+    margin-top: 20px;
+    margin-left: 11px;
+}
+#yt{
+    margin-top: 19px;
+    margin-left: 4px;
+}
+#tw{
+    margin-top: 20px;
+    margin-left: 7px;
+}
+#ln{
+    margin-top: 19px;
+    margin-left: 8px;
+}
+.line1{
+    width: 93%;
+    height: 1px;
+    margin-left: 68px;
+    background: #838282;
+}
+.cont-box1{
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+.cont-box2{
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+.cont-box3{
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+.cont-box4{
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+.cont-box5{
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+.fot-cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-1{
+    width: 170px;
+    margin-top: -62px;
+    padding-left: 180px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    z-index: 1;
+}
+
+button{
+    background: #dc4348;
+    color: #fff;
+    height: 41px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 25px;
+    font-family: gotham-bold;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 20px;
+    border-width: 0;
+    text-align: center;
+}
+#bt-4{
+    margin-top: 26px;
+    margin-left: 117px;
+}
+.fot-cont{
+    color: #838282;
+    margin-left: 70px;
+    margin-top: 60px;
+    line-height: 9px;
+    margin-bottom: -60px;
+    font-family: gotham-book;
+}
+h2{
+    font-size: 14px;
+    font-family: gotham-medium;
+}
+.copy{
+    color: #838282;
+    font-size: 13px;
+    margin-left: 62px;
+}
+
+.ul-btn li{
+    color: #fff;
+    padding-left: 12px;
+    font-size: 12px;
+}
+.btn-2 {
+    width: 206px;
+    margin-top: -62px;
+    padding-left: 170px;
+    border: 0px;
+}
